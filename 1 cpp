@@ -1,0 +1,81 @@
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(0, "");
+	int a_1 = 10;
+	cout << "a_1 = " << a_1 << " | тип: int, размер: 4 б." << endl;
+	int a_2 = 20;
+	cout << "a_2 = " << a_2 << " | тип: int, размер: 4 б." << endl;
+	int a_3 = 30;
+	cout << "a_3 = " << a_3 << " | тип: int, размер: 4 б." << endl;
+	int a_4 = 40;
+	cout << "a_4 = " << a_4 << " | тип: int, размер: 4 б." << endl;
+	int a_5 = 50;
+	cout << "a_5 = " << a_5 << " | тип: int, размер: 4 б." << endl;
+
+	short a_11 = 10;
+	cout << "a_11 = " << a_11 << " | тип: short, размер: 2 б." << endl;
+	short a_12 = 20;
+	cout << "a_12 = " << a_12 << " | тип: short, размер: 2 б." << endl;
+	short a_13 = 30;
+	cout << "a_13 = " << a_13 << " | тип: short, размер: 2 б." << endl;
+	short a_14 = 40;
+	cout << "a_14 = " << a_14 << " | тип: short, размер: 2 б." << endl;
+	short a_15 = 50;
+	cout << "a_15 = " << a_15 << " | тип: short, размер: 2 б." << endl;
+
+	float a_31 = 10.5;
+	cout << "a_31 = " << a_31 << " | тип: float, размер: 4 б." << endl;
+	float a_32 = 20.5;
+	cout << "a_32 = " << a_32 << " | тип: float, размер: 4 б." << endl;
+	float a_33 = 30.5;
+	cout << "a_33 = " << a_33 << " | тип: float, размер: 4 б." << endl;
+	float a_34 = 40.5;
+	cout << "a_34 = " << a_34 << " | тип: float, размер: 4 б." << endl;
+	float a_35 = 50.5;
+	cout << "a_35 = " << a_35 << " | тип: float, размер: 4 б." << endl;
+
+	double a_41 = 10.5;
+	cout << "a_41 = " << a_41 << " | тип: double, размер: 8 б." << endl;
+	double a_42 = 20.5;
+	cout << "a_42 = " << a_42 << " | тип: double, размер: 8 б." << endl;
+	double a_43 = 30.5;
+	cout << "a_43 = " << a_43 << " | тип: double, размер: 8 б." << endl;
+	double a_44 = 40.5;
+	cout << "a_44 = " << a_44 << " | тип: double, размер: 8 б." << endl;
+	double a_45 = 50.5;
+	cout << "a_45 = " << a_45 << " | тип: double, размер: 8 б." << endl;
+
+	char a_51 = '1';
+	cout << "a_51 = " << a_51 << " | тип: char, размер: 1 б." << endl;
+	char a_52 = '2';
+	cout << "a_52 = " << a_52 << " | тип: char, размер: 1 б." << endl;
+	char a_53 = '3';
+	cout << "a_53 = " << a_53 << " | тип: char, размер: 1 б." << endl;
+	char a_54 = '4';
+	cout << "a_54 = " << a_54 << " | тип: char, размер: 1 б." << endl;
+	char a_55 = '5';
+	cout << "a_55 = " << a_55 << " | тип: char, размер: 1 б." << endl;
+
+	bool a_61 = true;
+	cout << "a_61 = " << a_61 << " | тип: bool, размер: 1 б." << endl;
+	bool a_62 = true;
+	cout << "a_62 = " << a_62 << " | тип: bool, размер: 1 б." << endl;
+	bool a_63 = true;
+	cout << "a_63 = " << a_63 << " | тип: bool, размер: 1 б." << endl;
+	bool a_64 = true;
+	cout << "a_64 = " << a_64 << " | тип: bool, размер: 1 б." << endl;
+	bool a_65 = true;
+	cout << "a_65 = " << a_65 << " | тип: bool, размер: 1 б." << endl;
+
+	string a_71 = "a";
+	cout << "a_71 = " << a_71 << " | тип: string, размер: 24-32 б." << endl;
+	string a_72 = "b";
+	cout << "a_72 = " << a_72 << " | тип: string, размер: 24-32 б." << endl;
+	string a_73 = "v";
+	cout << "a_73 = " << a_73 << " | тип: string, размер: 24-32 б." << endl;
+	string a_74 = "c";
+	cout << "a_74 = " << a_74 << " | тип: string, размер: 24-32 б." << endl;
+	string a_75 = "z";
+	cout << "a_75 = " << a_75 << " | тип: string, размер: 24-32 б." << endl;
+}
